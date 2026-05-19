@@ -192,7 +192,7 @@ stdenv.mkDerivation (finalAttrs: {
     description = "PC Software for BambuLab's 3D printers";
     homepage = "https://github.com/bambulab/BambuStudio";
     changelog = "https://github.com/bambulab/BambuStudio/releases/tag/v${finalAttrs.version}";
-    license = lib.licenses.agpl3Plus;
+    license = lib.licenses.unfreeRedistributable;
     maintainers = with lib.maintainers; [
       zhaofengli
       dsluijk
